@@ -1,0 +1,26 @@
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\bin\Debug\RFID Attendance System.exe.config
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\bin\Debug\RFID Attendance System.exe
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\bin\Debug\RFID Attendance System.pdb
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\obj\Debug\RFID Attendance System.csproj.AssemblyReference.cache
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\obj\Debug\RFID Attendance System.csproj.SuggestedBindingRedirects.cache
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\obj\Debug\RFID_Attendance_System.Properties.Resources.resources
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\obj\Debug\RFID Attendance System.csproj.GenerateResource.cache
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\obj\Debug\RFID Attendance System.csproj.CoreCompileInputs.cache
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\obj\Debug\RFID Attendance System.exe
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\obj\Debug\RFID Attendance System.pdb
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\obj\Debug\RFID_Attendance_System.MainForm.resources
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\bin\Debug\EntityFramework.dll
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\bin\Debug\SnappyWinscard.dll
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\bin\Debug\System.Data.SQLite.dll
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\bin\Debug\EntityFramework.xml
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\bin\Debug\System.Data.SQLite.xml
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\obj\Debug\RFID Attendance System.csproj.CopyComplete
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\obj\Debug\RFID_Attendance_System.FormAttendance.resources
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\bin\Debug\Guna.UI2.dll
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\obj\Debug\RFID_Attendance_System.FormPrint.resources
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\obj\Debug\RFID_Attendance_System.FormRegister.resources

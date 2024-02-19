@@ -1,0 +1,8 @@
+selected button:
+39, 44, 48
+
+side panel:
+49, 55, 61
+
+font and icon:
+132, 144, 157
