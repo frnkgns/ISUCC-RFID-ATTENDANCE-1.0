@@ -15,6 +15,7 @@ using System.IO;
 using Attendance_with_RFID;
 using System.Security.Cryptography;
 using System.Security.RightsManagement;
+using System.Data.SQLite;
 
 namespace RFID_Attendance_System
 {
@@ -45,18 +46,33 @@ namespace RFID_Attendance_System
                 //Creating query to insert data to data base
                 string insert = $"INSERT INTO IDInfo VALUES (\"{uid}\", \"{tb_id.Text}\", \"{tb_name.Text}\", \"{tb_course.Text}\");";
 
-                //Executing Command
-                using (SQLiteCommand cmd = new SQLiteCommand(insert, conn))
+                //Check if ID EXist
+                string getid = $"select * from idinfo where rfid = '{uid}'";
+                using (SQLiteCommand cmd = new SQLiteCommand(getid, conn))
                 {
-
                     using (SQLiteDataReader reader = cmd.ExecuteReader())
                     {
+                        if (reader.Read())
+                        {
+                            GoBackToAttendanceForm("RecordExist");
+                        } else
+                        {
+                            //Executing Command
+                            using (SQLiteCommand insertcmd = new SQLiteCommand(insert, conn))
+                            {
+
+                                using (SQLiteDataReader reader2 = insertcmd.ExecuteReader())
+                                {
+                                }
+                            }
+
+                            conn.Close();
+
+                            GoBackToAttendanceForm("NoRecord");
+
+                        }
                     }
                 }
-
-                conn.Close();
-
-                MessageBox.Show("Record saved.");
             }
             catch
             {
@@ -75,6 +91,28 @@ namespace RFID_Attendance_System
         private void FormRegister_Resize(object sender, EventArgs e)
         {
             ResizeAll();
+        }
+
+
+        public void GoBackToAttendanceForm(string cmd)
+        {
+            MessageBoxButtons okbtn = MessageBoxButtons.OK;
+            DialogResult recordsaved;
+
+
+            if (cmd == "NoRecord")
+            {
+                recordsaved = MessageBox.Show("Student Record Saved.", "", okbtn);
+                
+            } else
+            {
+                recordsaved = MessageBox.Show("Student Record Exist.", "", okbtn);
+            }
+
+            if (recordsaved == DialogResult.OK)
+            {
+                Methods.openForm(new FormAttendance(), panelMain);
+            }
         }
     }
 
@@ -102,6 +140,4 @@ namespace RFID_Attendance_System
             }
         }
     }
-
-
 }
