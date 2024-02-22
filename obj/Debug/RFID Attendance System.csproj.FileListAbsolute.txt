@@ -50,3 +50,4 @@ C:\Users\frnkg\Documents\RFID\attendanceRFID\obj\Debug\RFID Att.16DA76AB.Up2Date
 C:\Users\frnkg\Documents\RFID\attendanceRFID\obj\Debug\RFID Attendance System.exe
 C:\Users\frnkg\Documents\RFID\attendanceRFID\obj\Debug\RFID Attendance System.pdb
 C:\Users\frnkg\Documents\RFID\attendanceRFID\obj\Debug\RFID_Attendance_System.DataStatistics.resources
+C:\Users\markj\Documents\C# Projects\RFID Attendance System\obj\Debug\RFID_Attendance_System.DataStatistics.resources
