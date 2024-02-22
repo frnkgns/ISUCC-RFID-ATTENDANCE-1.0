@@ -35,7 +35,12 @@ namespace RFID_Attendance_System
 
         private void btn_print_Click(object sender, EventArgs e)
         {
-            Methods.openForm(new FormPrint(), panelMain);
+            Methods.openForm(new DataStatistics(), panelMain);
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+
         }
     }
     public static class Methods
