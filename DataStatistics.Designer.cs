@@ -66,6 +66,7 @@
             this.lates = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.scndyr1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.event_date = new System.Windows.Forms.ComboBox();
             this.frthyr2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.frthyr1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.thrdyr2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
@@ -105,7 +106,7 @@
             legend1.BackColor = System.Drawing.Color.Transparent;
             legend1.Name = "Legend1";
             this.frsttofrth.Legends.Add(legend1);
-            this.frsttofrth.Location = new System.Drawing.Point(661, 212);
+            this.frsttofrth.Location = new System.Drawing.Point(612, 285);
             this.frsttofrth.Margin = new System.Windows.Forms.Padding(0);
             this.frsttofrth.Name = "frsttofrth";
             series1.ChartArea = "ChartArea1";
@@ -133,10 +134,10 @@
             this.frsttofrth.Series.Add(series2);
             this.frsttofrth.Series.Add(series3);
             this.frsttofrth.Series.Add(series4);
-            this.frsttofrth.Size = new System.Drawing.Size(424, 1679);
+            this.frsttofrth.Size = new System.Drawing.Size(307, 345);
             this.frsttofrth.TabIndex = 0;
             this.frsttofrth.Text = "frsttofrth";
-            this.frsttofrth.Click += new System.EventHandler(this.chart1_Click);
+            this.frsttofrth.Visible = false;
             // 
             // frstyrtb1
             // 
@@ -167,7 +168,7 @@
             legend2.BackColor = System.Drawing.Color.Transparent;
             legend2.Name = "Legend1";
             this.frstyrtb1.Legends.Add(legend2);
-            this.frstyrtb1.Location = new System.Drawing.Point(58, 0);
+            this.frstyrtb1.Location = new System.Drawing.Point(174, 69);
             this.frstyrtb1.Margin = new System.Windows.Forms.Padding(0);
             this.frstyrtb1.Name = "frstyrtb1";
             this.frstyrtb1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
@@ -189,6 +190,7 @@
             this.frstyrtb1.Size = new System.Drawing.Size(429, 253);
             this.frstyrtb1.TabIndex = 0;
             this.frstyrtb1.Text = "chart3";
+            this.frstyrtb1.Visible = false;
             // 
             // lates
             // 
@@ -209,7 +211,7 @@
             legend3.BackColor = System.Drawing.Color.Transparent;
             legend3.Name = "Legend1";
             this.lates.Legends.Add(legend3);
-            this.lates.Location = new System.Drawing.Point(724, 9);
+            this.lates.Location = new System.Drawing.Point(614, 78);
             this.lates.Margin = new System.Windows.Forms.Padding(0);
             this.lates.Name = "lates";
             this.lates.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
@@ -222,6 +224,7 @@
             this.lates.Size = new System.Drawing.Size(283, 212);
             this.lates.TabIndex = 0;
             this.lates.Text = "late";
+            this.lates.Visible = false;
             // 
             // scndyr1
             // 
@@ -240,7 +243,7 @@
             legend4.BackColor = System.Drawing.Color.Transparent;
             legend4.Name = "Legend1";
             this.scndyr1.Legends.Add(legend4);
-            this.scndyr1.Location = new System.Drawing.Point(56, 444);
+            this.scndyr1.Location = new System.Drawing.Point(174, 504);
             this.scndyr1.Margin = new System.Windows.Forms.Padding(0);
             this.scndyr1.Name = "scndyr1";
             this.scndyr1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
@@ -257,10 +260,13 @@
             this.scndyr1.Size = new System.Drawing.Size(418, 246);
             this.scndyr1.TabIndex = 2;
             this.scndyr1.Text = "chart6";
+            this.scndyr1.Visible = false;
             // 
             // panel1
             // 
             this.panel1.AutoScroll = true;
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.event_date);
             this.panel1.Controls.Add(this.frthyr2);
             this.panel1.Controls.Add(this.frthyr1);
             this.panel1.Controls.Add(this.thrdyr2);
@@ -276,6 +282,23 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(803, 582);
             this.panel1.TabIndex = 5;
+            // 
+            // event_date
+            // 
+            this.event_date.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.event_date.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.event_date.BackColor = System.Drawing.SystemColors.Control;
+            this.event_date.DropDownHeight = 100;
+            this.event_date.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.event_date.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.event_date.FormattingEnabled = true;
+            this.event_date.IntegralHeight = false;
+            this.event_date.Location = new System.Drawing.Point(174, 5);
+            this.event_date.Name = "event_date";
+            this.event_date.Size = new System.Drawing.Size(723, 39);
+            this.event_date.TabIndex = 14;
+            this.event_date.Text = "Select Year and Section";
+            this.event_date.SelectedValueChanged += new System.EventHandler(this.event_date_SelectedValueChanged);
             // 
             // frthyr2
             // 
@@ -298,7 +321,7 @@
             legend5.TitleBackColor = System.Drawing.Color.Transparent;
             legend5.TitleForeColor = System.Drawing.Color.Transparent;
             this.frthyr2.Legends.Add(legend5);
-            this.frthyr2.Location = new System.Drawing.Point(45, 1620);
+            this.frthyr2.Location = new System.Drawing.Point(172, 1732);
             this.frthyr2.Margin = new System.Windows.Forms.Padding(0);
             this.frthyr2.Name = "frthyr2";
             this.frthyr2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
@@ -316,6 +339,7 @@
             this.frthyr2.Size = new System.Drawing.Size(418, 246);
             this.frthyr2.TabIndex = 13;
             this.frthyr2.Text = "chart6";
+            this.frthyr2.Visible = false;
             // 
             // frthyr1
             // 
@@ -337,7 +361,7 @@
             legend6.TitleBackColor = System.Drawing.Color.Transparent;
             legend6.TitleForeColor = System.Drawing.Color.Transparent;
             this.frthyr1.Legends.Add(legend6);
-            this.frthyr1.Location = new System.Drawing.Point(56, 1386);
+            this.frthyr1.Location = new System.Drawing.Point(172, 1486);
             this.frthyr1.Margin = new System.Windows.Forms.Padding(0);
             this.frthyr1.Name = "frthyr1";
             this.frthyr1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
@@ -354,6 +378,7 @@
             this.frthyr1.Size = new System.Drawing.Size(418, 246);
             this.frthyr1.TabIndex = 12;
             this.frthyr1.Text = "chart6";
+            this.frthyr1.Visible = false;
             // 
             // thrdyr2
             // 
@@ -376,7 +401,7 @@
             legend7.TitleBackColor = System.Drawing.Color.Transparent;
             legend7.TitleForeColor = System.Drawing.Color.Transparent;
             this.thrdyr2.Legends.Add(legend7);
-            this.thrdyr2.Location = new System.Drawing.Point(45, 1152);
+            this.thrdyr2.Location = new System.Drawing.Point(172, 1240);
             this.thrdyr2.Margin = new System.Windows.Forms.Padding(0);
             this.thrdyr2.Name = "thrdyr2";
             this.thrdyr2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
@@ -394,6 +419,7 @@
             this.thrdyr2.Size = new System.Drawing.Size(418, 246);
             this.thrdyr2.TabIndex = 11;
             this.thrdyr2.Text = "chart6";
+            this.thrdyr2.Visible = false;
             // 
             // thrdyr1
             // 
@@ -415,7 +441,7 @@
             legend8.TitleBackColor = System.Drawing.Color.Transparent;
             legend8.TitleForeColor = System.Drawing.Color.Transparent;
             this.thrdyr1.Legends.Add(legend8);
-            this.thrdyr1.Location = new System.Drawing.Point(56, 917);
+            this.thrdyr1.Location = new System.Drawing.Point(174, 994);
             this.thrdyr1.Margin = new System.Windows.Forms.Padding(0);
             this.thrdyr1.Name = "thrdyr1";
             this.thrdyr1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
@@ -432,6 +458,7 @@
             this.thrdyr1.Size = new System.Drawing.Size(418, 246);
             this.thrdyr1.TabIndex = 10;
             this.thrdyr1.Text = "chart6";
+            this.thrdyr1.Visible = false;
             // 
             // frstyrtb2
             // 
@@ -463,7 +490,7 @@
             legend9.ForeColor = System.Drawing.Color.Transparent;
             legend9.Name = "Legend1";
             this.frstyrtb2.Legends.Add(legend9);
-            this.frstyrtb2.Location = new System.Drawing.Point(45, 222);
+            this.frstyrtb2.Location = new System.Drawing.Point(174, 285);
             this.frstyrtb2.Margin = new System.Windows.Forms.Padding(0);
             this.frstyrtb2.Name = "frstyrtb2";
             this.frstyrtb2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
@@ -486,7 +513,7 @@
             this.frstyrtb2.Size = new System.Drawing.Size(429, 253);
             this.frstyrtb2.TabIndex = 7;
             this.frstyrtb2.Text = "chart3";
-            this.frstyrtb2.Click += new System.EventHandler(this.frstyrtb2_Click);
+            this.frstyrtb2.Visible = false;
             // 
             // scndyr2
             // 
@@ -509,7 +536,7 @@
             legend10.TitleBackColor = System.Drawing.Color.Transparent;
             legend10.TitleForeColor = System.Drawing.Color.Transparent;
             this.scndyr2.Legends.Add(legend10);
-            this.scndyr2.Location = new System.Drawing.Point(45, 681);
+            this.scndyr2.Location = new System.Drawing.Point(174, 748);
             this.scndyr2.Margin = new System.Windows.Forms.Padding(0);
             this.scndyr2.Name = "scndyr2";
             this.scndyr2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.EarthTones;
@@ -527,6 +554,7 @@
             this.scndyr2.Size = new System.Drawing.Size(418, 246);
             this.scndyr2.TabIndex = 8;
             this.scndyr2.Text = "chart6";
+            this.scndyr2.Visible = false;
             // 
             // DataStatistics
             // 
@@ -564,5 +592,6 @@
         private System.Windows.Forms.DataVisualization.Charting.Chart thrdyr1;
         private System.Windows.Forms.DataVisualization.Charting.Chart frthyr2;
         private System.Windows.Forms.DataVisualization.Charting.Chart frthyr1;
+        private System.Windows.Forms.ComboBox event_date;
     }
 }

@@ -88,88 +88,84 @@
             // lbl_timeInText
             // 
             this.lbl_timeInText.BackColor = System.Drawing.Color.Gainsboro;
-            this.lbl_timeInText.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_timeInText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_timeInText.Location = new System.Drawing.Point(314, 180);
             this.lbl_timeInText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_timeInText.Name = "lbl_timeInText";
             this.lbl_timeInText.Size = new System.Drawing.Size(422, 30);
             this.lbl_timeInText.TabIndex = 3;
-            this.lbl_timeInText.Text = "09:00 AM";
             // 
             // lbl_courseText
             // 
             this.lbl_courseText.BackColor = System.Drawing.Color.Gainsboro;
-            this.lbl_courseText.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_courseText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_courseText.Location = new System.Drawing.Point(314, 130);
             this.lbl_courseText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_courseText.Name = "lbl_courseText";
             this.lbl_courseText.Size = new System.Drawing.Size(422, 30);
             this.lbl_courseText.TabIndex = 3;
-            this.lbl_courseText.Text = "BSCS - 3A DM";
             // 
             // lbl_nameText
             // 
             this.lbl_nameText.BackColor = System.Drawing.Color.Gainsboro;
-            this.lbl_nameText.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_nameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_nameText.Location = new System.Drawing.Point(314, 80);
             this.lbl_nameText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_nameText.Name = "lbl_nameText";
             this.lbl_nameText.Size = new System.Drawing.Size(422, 30);
             this.lbl_nameText.TabIndex = 3;
-            this.lbl_nameText.Text = "Mark Joseph Orino";
             // 
             // lbl_stdidText
             // 
             this.lbl_stdidText.BackColor = System.Drawing.Color.Gainsboro;
-            this.lbl_stdidText.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_stdidText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_stdidText.Location = new System.Drawing.Point(314, 30);
             this.lbl_stdidText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_stdidText.Name = "lbl_stdidText";
             this.lbl_stdidText.Size = new System.Drawing.Size(422, 30);
             this.lbl_stdidText.TabIndex = 3;
-            this.lbl_stdidText.Text = "21-11929";
             // 
             // lbl_timeIn
             // 
             this.lbl_timeIn.AutoSize = true;
-            this.lbl_timeIn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_timeIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_timeIn.Location = new System.Drawing.Point(178, 180);
             this.lbl_timeIn.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_timeIn.Name = "lbl_timeIn";
-            this.lbl_timeIn.Size = new System.Drawing.Size(112, 30);
+            this.lbl_timeIn.Size = new System.Drawing.Size(69, 20);
             this.lbl_timeIn.TabIndex = 2;
             this.lbl_timeIn.Text = "Time In: ";
             // 
             // lbl_course
             // 
             this.lbl_course.AutoSize = true;
-            this.lbl_course.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_course.Location = new System.Drawing.Point(29, 130);
+            this.lbl_course.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_course.Location = new System.Drawing.Point(90, 130);
             this.lbl_course.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_course.Name = "lbl_course";
-            this.lbl_course.Size = new System.Drawing.Size(261, 30);
+            this.lbl_course.Size = new System.Drawing.Size(157, 20);
             this.lbl_course.TabIndex = 2;
             this.lbl_course.Text = "Course and Section: ";
             // 
             // lbl_name
             // 
             this.lbl_name.AutoSize = true;
-            this.lbl_name.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_name.Location = new System.Drawing.Point(92, 80);
+            this.lbl_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_name.Location = new System.Drawing.Point(127, 80);
             this.lbl_name.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_name.Name = "lbl_name";
-            this.lbl_name.Size = new System.Drawing.Size(198, 30);
+            this.lbl_name.Size = new System.Drawing.Size(120, 20);
             this.lbl_name.TabIndex = 1;
             this.lbl_name.Text = "Student Name: ";
             // 
             // lbl_stdid
             // 
             this.lbl_stdid.AutoSize = true;
-            this.lbl_stdid.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_stdid.Location = new System.Drawing.Point(142, 30);
+            this.lbl_stdid.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_stdid.Location = new System.Drawing.Point(152, 36);
             this.lbl_stdid.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_stdid.Name = "lbl_stdid";
-            this.lbl_stdid.Size = new System.Drawing.Size(148, 30);
+            this.lbl_stdid.Size = new System.Drawing.Size(95, 20);
             this.lbl_stdid.TabIndex = 0;
             this.lbl_stdid.Text = "Student ID: ";
             // 
@@ -187,7 +183,8 @@
             // 
             this.lbl_info.BackColor = System.Drawing.Color.PaleGreen;
             this.lbl_info.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lbl_info.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_info.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_info.ForeColor = System.Drawing.Color.Black;
             this.lbl_info.Location = new System.Drawing.Point(0, 0);
             this.lbl_info.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_info.Name = "lbl_info";
@@ -209,11 +206,11 @@
             // 
             // lbl_date
             // 
-            this.lbl_date.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.lbl_date.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_date.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_date.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_date.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_date.Location = new System.Drawing.Point(0, 80);
             this.lbl_date.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_date.Name = "lbl_date";
@@ -224,11 +221,11 @@
             // 
             // lbl_time
             // 
-            this.lbl_time.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.lbl_time.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_time.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_time.Font = new System.Drawing.Font("Century Gothic", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_time.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_time.Location = new System.Drawing.Point(0, 10);
             this.lbl_time.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_time.Name = "lbl_time";
@@ -239,11 +236,11 @@
             // 
             // FormAttendance
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(803, 660);
             this.Controls.Add(this.panelMain);
-            this.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormAttendance";

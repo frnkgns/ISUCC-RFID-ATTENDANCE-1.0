@@ -51,3 +51,54 @@ C:\Users\frnkg\Documents\RFID\attendanceRFID\obj\Debug\RFID Attendance System.ex
 C:\Users\frnkg\Documents\RFID\attendanceRFID\obj\Debug\RFID Attendance System.pdb
 C:\Users\frnkg\Documents\RFID\attendanceRFID\obj\Debug\RFID_Attendance_System.DataStatistics.resources
 C:\Users\markj\Documents\C# Projects\RFID Attendance System\obj\Debug\RFID_Attendance_System.DataStatistics.resources
+C:\Users\frnkg\Downloads\oldRfid\bin\Debug\RFID Attendance System.exe.config
+C:\Users\frnkg\Downloads\oldRfid\bin\Debug\RFID Attendance System.exe
+C:\Users\frnkg\Downloads\oldRfid\bin\Debug\RFID Attendance System.pdb
+C:\Users\frnkg\Downloads\oldRfid\bin\Debug\EntityFramework.dll
+C:\Users\frnkg\Downloads\oldRfid\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\frnkg\Downloads\oldRfid\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\frnkg\Downloads\oldRfid\bin\Debug\Guna.UI2.dll
+C:\Users\frnkg\Downloads\oldRfid\bin\Debug\SnappyWinscard.dll
+C:\Users\frnkg\Downloads\oldRfid\bin\Debug\System.Data.SQLite.dll
+C:\Users\frnkg\Downloads\oldRfid\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\frnkg\Downloads\oldRfid\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\frnkg\Downloads\oldRfid\bin\Debug\EntityFramework.xml
+C:\Users\frnkg\Downloads\oldRfid\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\frnkg\Downloads\oldRfid\bin\Debug\System.Data.SQLite.xml
+C:\Users\frnkg\Downloads\oldRfid\obj\Debug\RFID Attendance System.csproj.AssemblyReference.cache
+C:\Users\frnkg\Downloads\oldRfid\obj\Debug\RFID_Attendance_System.DataStatistics.resources
+C:\Users\frnkg\Downloads\oldRfid\obj\Debug\RFID_Attendance_System.FormAttendance.resources
+C:\Users\frnkg\Downloads\oldRfid\obj\Debug\RFID_Attendance_System.FormPrint.resources
+C:\Users\frnkg\Downloads\oldRfid\obj\Debug\RFID_Attendance_System.FormRegister.resources
+C:\Users\frnkg\Downloads\oldRfid\obj\Debug\RFID_Attendance_System.MainForm.resources
+C:\Users\frnkg\Downloads\oldRfid\obj\Debug\RFID_Attendance_System.Properties.Resources.resources
+C:\Users\frnkg\Downloads\oldRfid\obj\Debug\RFID Attendance System.csproj.GenerateResource.cache
+C:\Users\frnkg\Downloads\oldRfid\obj\Debug\RFID Attendance System.csproj.CoreCompileInputs.cache
+C:\Users\frnkg\Downloads\oldRfid\obj\Debug\RFID Att.16DA76AB.Up2Date
+C:\Users\frnkg\Downloads\oldRfid\obj\Debug\RFID Attendance System.exe
+C:\Users\frnkg\Downloads\oldRfid\obj\Debug\RFID Attendance System.pdb
+C:\Users\frnkg\Downloads\New folder\bin\Debug\RFID Attendance System.exe.config
+C:\Users\frnkg\Downloads\New folder\bin\Debug\RFID Attendance System.exe
+C:\Users\frnkg\Downloads\New folder\bin\Debug\RFID Attendance System.pdb
+C:\Users\frnkg\Downloads\New folder\bin\Debug\EntityFramework.dll
+C:\Users\frnkg\Downloads\New folder\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\frnkg\Downloads\New folder\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\frnkg\Downloads\New folder\bin\Debug\Guna.UI2.dll
+C:\Users\frnkg\Downloads\New folder\bin\Debug\SnappyWinscard.dll
+C:\Users\frnkg\Downloads\New folder\bin\Debug\System.Data.SQLite.dll
+C:\Users\frnkg\Downloads\New folder\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\frnkg\Downloads\New folder\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\frnkg\Downloads\New folder\bin\Debug\EntityFramework.xml
+C:\Users\frnkg\Downloads\New folder\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\frnkg\Downloads\New folder\bin\Debug\System.Data.SQLite.xml
+C:\Users\frnkg\Downloads\New folder\obj\Debug\RFID Attendance System.csproj.AssemblyReference.cache
+C:\Users\frnkg\Downloads\New folder\obj\Debug\RFID_Attendance_System.DataStatistics.resources
+C:\Users\frnkg\Downloads\New folder\obj\Debug\RFID_Attendance_System.FormAttendance.resources
+C:\Users\frnkg\Downloads\New folder\obj\Debug\RFID_Attendance_System.FormRegister.resources
+C:\Users\frnkg\Downloads\New folder\obj\Debug\RFID_Attendance_System.MainForm.resources
+C:\Users\frnkg\Downloads\New folder\obj\Debug\RFID_Attendance_System.Properties.Resources.resources
+C:\Users\frnkg\Downloads\New folder\obj\Debug\RFID Attendance System.csproj.GenerateResource.cache
+C:\Users\frnkg\Downloads\New folder\obj\Debug\RFID Attendance System.csproj.CoreCompileInputs.cache
+C:\Users\frnkg\Downloads\New folder\obj\Debug\RFID Att.16DA76AB.Up2Date
+C:\Users\frnkg\Downloads\New folder\obj\Debug\RFID Attendance System.exe
+C:\Users\frnkg\Downloads\New folder\obj\Debug\RFID Attendance System.pdb

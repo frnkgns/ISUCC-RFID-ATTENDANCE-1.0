@@ -1,28 +1,32 @@
-﻿using Guna.UI2.WinForms;
-using SnappyWinscard;
+﻿using SnappyWinscard;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SQLite;
-using System.Drawing;
-using System.Drawing.Drawing2D;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using Attendance_with_RFID;
 using System.Security.Cryptography;
 using System.Security.RightsManagement;
 using System.Data.SQLite;
+using System.Web.UI.WebControls;
 
 namespace RFID_Attendance_System
 {
     public partial class FormRegister : Form
     {
         public string uid = "";
-        private formRegisterCR function; 
+        private formRegisterCR function;
+
+        //Sound effects
+        static string logged_in_sound = @"livechat-129007.wav";
+        static string error_sound = @"error-call-to-attention-129258.wav";
+        static string error_path = Path.Combine(Application.StartupPath, error_sound);
+        static string logged_in_path = Path.Combine(Application.StartupPath, logged_in_sound);
+        static System.Media.SoundPlayer login = new System.Media.SoundPlayer(logged_in_path);
+        static System.Media.SoundPlayer error = new System.Media.SoundPlayer(error_path);
+
         public FormRegister()
         {
             InitializeComponent();
@@ -35,44 +39,47 @@ namespace RFID_Attendance_System
             try
             {
                 //Getting the path of database
-
                 string dbname = @"RFID DB.db";
                 string dbpath = Path.Combine(Application.StartupPath, dbname);
 
                 //Initializing connection to database
-                SQLiteConnection conn = new SQLiteConnection($"Data Source= {dbpath}; Version= 3;");
-                conn.Open();
-
-                //Creating query to insert data to data base
-                string insert = $"INSERT INTO IDInfo VALUES (\"{uid}\", \"{tb_id.Text}\", \"{tb_name.Text}\", \"{tb_course.Text}\");";
-
-                //Check if ID EXist
-                string getid = $"select * from idinfo where rfid = '{uid}'";
-                using (SQLiteCommand cmd = new SQLiteCommand(getid, conn))
+                using (SQLiteConnection conn = new SQLiteConnection($"Data Source= {dbpath}; Version= 3;"))
                 {
-                    using (SQLiteDataReader reader = cmd.ExecuteReader())
+
+                    //Check if ID EXist
+                    string getid = $"select * from idinfo where rfid = '{uid}'";
+                    conn.Open();
+
+                    //Creating query to insert data to data base
+                    string insert = $"insert into idinfo values ('{uid}', '{tb_id.Text}', '{tb_name.Text}', '{tb_course.Text}');";
+
+                    using (SQLiteCommand cmd = new SQLiteCommand(getid, conn))
                     {
-                        if (reader.Read())
+                        using (SQLiteDataReader reader = cmd.ExecuteReader())
                         {
-                            GoBackToAttendanceForm("RecordExist");
-                        } else
-                        {
-                            //Executing Command
-                            using (SQLiteCommand insertcmd = new SQLiteCommand(insert, conn))
+                            if (reader.Read())
                             {
+                                GoBackToAttendanceForm("RecordExist");
 
-                                using (SQLiteDataReader reader2 = insertcmd.ExecuteReader())
-                                {
-                                }
                             }
+                            else
+                            {
+                                //Executing Command
+                                using (SQLiteCommand insertcmd = new SQLiteCommand(insert, conn))
+                                {
 
-                            conn.Close();
+                                    insertcmd.ExecuteNonQuery();
+                                }
 
-                            GoBackToAttendanceForm("NoRecord");
+                                conn.Close();
 
+                                GoBackToAttendanceForm("NoRecord");
+
+                            }
                         }
                     }
                 }
+
             }
             catch
             {
@@ -102,10 +109,14 @@ namespace RFID_Attendance_System
 
             if (cmd == "NoRecord")
             {
+                login.Play();
                 recordsaved = MessageBox.Show("Student Record Saved.", "", okbtn);
-                
-            } else
+
+
+            }
+            else
             {
+                error.Play();
                 recordsaved = MessageBox.Show("Student Record Exist.", "", okbtn);
             }
 

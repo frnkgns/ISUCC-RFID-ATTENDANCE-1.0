@@ -1,11 +1,7 @@
-﻿using Guna.UI2.WinForms;
-using SnappyWinscard;
+﻿using SnappyWinscard;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Guna.UI2.WinForms;
 using System.Windows.Forms;
 
 namespace Attendance_with_RFID

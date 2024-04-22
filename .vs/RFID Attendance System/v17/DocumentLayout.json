@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\frnkg\\Documents\\RFID\\attendanceRFID\\",
+  "WorkspaceRootPath": "C:\\Users\\frnkg\\Downloads\\New folder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|C:\\Users\\frnkg\\Documents\\RFID\\attendanceRFID\\datastatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|solutionrelative:datastatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|C:\\Users\\frnkg\\Documents\\RFID\\attendanceRFID\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|c:\\users\\frnkg\\documents\\rfid\\attendancerfid\\datastatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|solutionrelative:datastatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|c:\\users\\frnkg\\downloads\\new folder\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataStatistics.cs",
-              "DocumentMoniker": "C:\\Users\\frnkg\\Documents\\RFID\\attendanceRFID\\DataStatistics.cs",
-              "RelativeDocumentMoniker": "DataStatistics.cs",
-              "ToolTip": "C:\\Users\\frnkg\\Documents\\RFID\\attendanceRFID\\DataStatistics.cs",
-              "RelativeToolTip": "DataStatistics.cs",
-              "ViewState": "AQIAAG4AAAAAAAAAAAAwwIAAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T10:46:56.764Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -64,26 +43,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DataStatistics.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\frnkg\\Documents\\RFID\\attendanceRFID\\DataStatistics.cs",
-              "RelativeDocumentMoniker": "DataStatistics.cs",
-              "ToolTip": "C:\\Users\\frnkg\\Documents\\RFID\\attendanceRFID\\DataStatistics.cs [Design]",
-              "RelativeToolTip": "DataStatistics.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T10:45:22.693Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\frnkg\\Documents\\RFID\\attendanceRFID\\MainForm.cs",
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\frnkg\\Downloads\\New folder\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "C:\\Users\\frnkg\\Documents\\RFID\\attendanceRFID\\MainForm.cs [Design]",
-              "RelativeToolTip": "MainForm.cs [Design]",
+              "ToolTip": "C:\\Users\\frnkg\\Downloads\\New folder\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAEwC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T17:50:58.724Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-22T12:14:07.761Z",
+              "EditorCaption": ""
             }
           ]
         }
