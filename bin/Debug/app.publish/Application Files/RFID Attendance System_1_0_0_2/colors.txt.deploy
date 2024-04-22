@@ -1,0 +1,25 @@
+selected button:
+39, 44, 48
+
+side panel:
+49, 55, 61
+
+font and icon:
+132, 144, 157
+
+
+if (!timedToday(id))
+                    {
+                        string query = "INSERT INTO Attendance (StudentID, StudentName, Course, Date, TimeIn) VALUES" +
+                            $"('{id}', '{name}', '{course}', '{dateToday}', '{dateTime}');";
+                        Console.WriteLine(query);
+                        Command(query).ExecuteNonQuery();
+                        conn.Close();
+                    }
+                    //else if (timedToday(id) && !timedIn(id))
+                    //{
+                    //    string query = $"UPDATE Attendance SET TimeOut = '{dateTime}' WHERE StudentID = '{id}' AND Date = '{dateToday}';";
+                    //    Console.WriteLine(query);
+                    //    //dataReader(query);
+                    //    conn.Close();
+                    //}

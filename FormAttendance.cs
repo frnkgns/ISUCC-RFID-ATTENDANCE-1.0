@@ -85,6 +85,7 @@ namespace RFID_Attendance_System
                 events_name = MainForm.instance.eventname;
                 if (events_name == "" || events_name == null || events_name == "EVENT NAME HERE")
                 {
+                    error.Play();
                     MessageBox.Show("Please enter events name to proceed.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     events_name = MainForm.instance.eventname;
 
@@ -212,10 +213,6 @@ namespace RFID_Attendance_System
                                     });
                                 }
                             }
-
-                            //Opkors laging iclose ang binuksan
-                            reader.Close();
-
 
                         }
                         else

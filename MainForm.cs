@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace RFID_Attendance_System
 {
@@ -14,6 +9,7 @@ namespace RFID_Attendance_System
     {
         public static MainForm instance;
         public string eventname;
+
         public MainForm()
         {
             InitializeComponent();
@@ -64,6 +60,7 @@ namespace RFID_Attendance_System
         {
             if (e.KeyCode == Keys.Enter)
             {
+
                 eventname = eventname_txtbox.Text;
                 btn_attendance.Focus();
             }

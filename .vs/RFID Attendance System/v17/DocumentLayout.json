@@ -1,10 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\frnkg\\Downloads\\New folder\\",
+  "WorkspaceRootPath": "C:\\Users\\frnkg\\Documents\\#PROJECTS\\C# Projects\\RFID 1.0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|c:\\users\\frnkg\\downloads\\new folder\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|RFID Attendance System||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|c:\\users\\frnkg\\documents\\#projects\\c# projects\\rfid 1.0\\formprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|solutionrelative:formprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|c:\\users\\frnkg\\documents\\#projects\\c# projects\\rfid 1.0\\formattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|solutionrelative:formattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|c:\\users\\frnkg\\documents\\#projects\\c# projects\\rfid 1.0\\formattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|solutionrelative:formattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|c:\\users\\frnkg\\documents\\#projects\\c# projects\\rfid 1.0\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|c:\\users\\frnkg\\documents\\#projects\\c# projects\\rfid 1.0\\formprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|solutionrelative:formprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|c:\\users\\frnkg\\documents\\#projects\\c# projects\\rfid 1.0\\formprinter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|solutionrelative:formprinter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{249CCD64-6BD5-48C6-87E2-2A0BD01F3A5C}|RFID Attendance System.csproj|c:\\users\\frnkg\\documents\\#projects\\c# projects\\rfid 1.0\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|cc4014f5-b18d-439c-9352-f99d984cca85"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,12 +69,87 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RFID Attendance System",
+              "DocumentMoniker": "C:\\Users\\frnkg\\Documents\\#PROJECTS\\C# Projects\\RFID 1.0\\RFID Attendance System.csproj",
+              "RelativeDocumentMoniker": "RFID Attendance System.csproj",
+              "ToolTip": "C:\\Users\\frnkg\\Documents\\#PROJECTS\\C# Projects\\RFID 1.0\\RFID Attendance System.csproj*",
+              "RelativeToolTip": "RFID Attendance System.csproj*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-22T17:52:17.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormAttendance.cs",
+              "DocumentMoniker": "C:\\Users\\frnkg\\Documents\\#PROJECTS\\C# Projects\\RFID 1.0\\FormAttendance.cs",
+              "RelativeDocumentMoniker": "FormAttendance.cs",
+              "ToolTip": "C:\\Users\\frnkg\\Documents\\#PROJECTS\\C# Projects\\RFID 1.0\\FormAttendance.cs",
+              "RelativeToolTip": "FormAttendance.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAADgv6AAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T14:04:52.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormAttendance.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\frnkg\\Documents\\#PROJECTS\\C# Projects\\RFID 1.0\\FormAttendance.cs",
+              "RelativeDocumentMoniker": "FormAttendance.cs",
+              "ToolTip": "C:\\Users\\frnkg\\Documents\\#PROJECTS\\C# Projects\\RFID 1.0\\FormAttendance.cs [Design]",
+              "RelativeToolTip": "FormAttendance.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T14:04:50.954Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormPrinter.cs",
+              "DocumentMoniker": "C:\\Users\\frnkg\\Documents\\#PROJECTS\\C# Projects\\RFID 1.0\\FormPrinter.cs",
+              "RelativeDocumentMoniker": "FormPrinter.cs",
+              "ToolTip": "C:\\Users\\frnkg\\Documents\\#PROJECTS\\C# Projects\\RFID 1.0\\FormPrinter.cs",
+              "RelativeToolTip": "FormPrinter.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAIwGUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T13:53:46.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormPrinter.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\frnkg\\Documents\\#PROJECTS\\C# Projects\\RFID 1.0\\FormPrinter.cs",
+              "RelativeDocumentMoniker": "FormPrinter.cs",
+              "ToolTip": "C:\\Users\\frnkg\\Documents\\#PROJECTS\\C# Projects\\RFID 1.0\\FormPrinter.cs [Design]",
+              "RelativeToolTip": "FormPrinter.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T13:53:41.811Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormPrinter.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\frnkg\\Documents\\#PROJECTS\\C# Projects\\RFID 1.0\\FormPrinter.Designer.cs",
+              "RelativeDocumentMoniker": "FormPrinter.Designer.cs",
+              "ToolTip": "C:\\Users\\frnkg\\Documents\\#PROJECTS\\C# Projects\\RFID 1.0\\FormPrinter.Designer.cs",
+              "RelativeToolTip": "FormPrinter.Designer.cs",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAjwLsAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T13:53:12.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\frnkg\\Downloads\\New folder\\MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\frnkg\\Documents\\#PROJECTS\\C# Projects\\RFID 1.0\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "C:\\Users\\frnkg\\Downloads\\New folder\\MainForm.cs",
+              "ToolTip": "C:\\Users\\frnkg\\Documents\\#PROJECTS\\C# Projects\\RFID 1.0\\MainForm.cs",
               "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAEwC4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T12:14:07.761Z",
               "EditorCaption": ""

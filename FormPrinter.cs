@@ -46,9 +46,7 @@ namespace RFID_Attendance_System
             else
             {
                 MessageBox.Show("Please select on the list.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
             }
-
         }
 
         public void ReadData()
@@ -58,7 +56,7 @@ namespace RFID_Attendance_System
             events_name = MainForm.instance.eventname;
             string yrsctn = yrsctn_cmbbx.SelectedItem.ToString();
             string selected_yrsctn = yrsctn + "\n" + dt.ToString("(MM/dd/yyyy)");
-            string event_id = events_name + dt.ToString("(MM/dd/yyyy)");
+            string event_id;
 
             using (SQLiteConnection conn = new SQLiteConnection($"Data Source= {dbpath}; Version= 3;"))
             {
@@ -93,6 +91,25 @@ namespace RFID_Attendance_System
                     }
                 }
             }
+        }
+
+        private void yrsctn_cmbbx_KeyDown(object sender, KeyEventArgs e)
+        {
+            string[] courselist = new string[yrsctn_cmbbx.Items.Count];
+            yrsctn_cmbbx.Items.CopyTo(courselist, 0);
+
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (courselist.Contains(yrsctn_cmbbx.Text))
+                {
+                    ReadData();
+
+                } else
+                {
+                    MessageBox.Show("Please select on the list.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+            } 
         }
     }
 }

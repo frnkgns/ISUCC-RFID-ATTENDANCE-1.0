@@ -102,3 +102,36 @@ C:\Users\frnkg\Downloads\New folder\obj\Debug\RFID Attendance System.csproj.Core
 C:\Users\frnkg\Downloads\New folder\obj\Debug\RFID Att.16DA76AB.Up2Date
 C:\Users\frnkg\Downloads\New folder\obj\Debug\RFID Attendance System.exe
 C:\Users\frnkg\Downloads\New folder\obj\Debug\RFID Attendance System.pdb
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\bin\Debug\RFID Attendance System.exe.config
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\bin\Debug\RFID Attendance System.exe
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\bin\Debug\RFID Attendance System.pdb
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\bin\Debug\EntityFramework.dll
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\bin\Debug\Guna.UI2.dll
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\bin\Debug\SnappyWinscard.dll
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\bin\Debug\System.Data.SQLite.dll
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\bin\Debug\EntityFramework.xml
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\bin\Debug\System.Data.SQLite.xml
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\obj\Debug\RFID Attendance System.csproj.AssemblyReference.cache
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\obj\Debug\RFID_Attendance_System.DataStatistics.resources
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\obj\Debug\RFID_Attendance_System.FormAttendance.resources
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\obj\Debug\RFID_Attendance_System.FormPrinter.resources
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\obj\Debug\RFID_Attendance_System.FormRegister.resources
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\obj\Debug\RFID_Attendance_System.MainForm.resources
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\obj\Debug\RFID_Attendance_System.Properties.Resources.resources
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\obj\Debug\RFID Attendance System.csproj.GenerateResource.cache
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\obj\Debug\RFID Attendance System.csproj.CoreCompileInputs.cache
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\obj\Debug\RFID Att.16DA76AB.Up2Date
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\obj\Debug\RFID Attendance System.exe
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\obj\Debug\RFID Attendance System.pdb
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\bin\Debug\RFID DB.db
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\bin\Debug\RFID Attendance System.exe.manifest
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\bin\Debug\RFID Attendance System.application
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\obj\Debug\RFID Attendance System.exe.manifest
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\obj\Debug\RFID Attendance System.application
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\bin\Debug\x64\SQLite.Interop.dll
+C:\Users\frnkg\Documents\#PROJECTS\C# Projects\RFID 1.0\bin\Debug\x86\SQLite.Interop.dll
